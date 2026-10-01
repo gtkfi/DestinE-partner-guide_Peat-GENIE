@@ -1,0 +1,22 @@
+# Dependency policy for the primary Python 3.12 environment.
+# requirements.txt will contain the resolved reference versions.
+numpy>=2.2,<2.4
+pandas>=2.2,<3
+matplotlib>=3.9,<4
+requests>=2.32,<3
+destinepyauth>=1.3,<2
+python-dotenv>=1,<2
+nbformat>=5.10,<6
+nbclient>=0.10,<1
+jupyterlab>=4.3,<5
+ipykernel>=6.29,<8
+rasterio>=1.4,<2
+shapely>=2,<3
+pyproj>=3.6,<4
+sentinelhub>=3.11,<4
+xarray>=2025.6,<2027
+dask[array]>=2025.5,<2027
+zarr>=3,<4
+aiohttp>=3.11,<4
+scipy>=1.14,<2
+markdown>=3.7,<4

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="290" viewBox="0 0 1200 290" role="img" aria-labelledby="title desc">
+  <title id="title">DestinE partner guide</title><desc id="desc">Understand the ecosystem. Choose a service. Build a reproducible first workflow.</desc>
+  <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#102b42"/><stop offset="1" stop-color="#155a63"/></linearGradient></defs>
+  <rect width="1200" height="290" rx="18" fill="url(#bg)"/>
+  <g fill="none" stroke="#8ad2cc" opacity=".25"><circle cx="1045" cy="144" r="122"/><ellipse cx="1045" cy="144" rx="57" ry="122"/><ellipse cx="1045" cy="144" rx="122" ry="45"/><path d="M923 144h244M1045 22v244"/></g>
+  <rect x="44" y="37" width="190" height="28" rx="14" fill="#a1e2d1"/>
+  <g font-family="Segoe UI,Arial,sans-serif"><text x="60" y="57" fill="#123343" font-size="14" font-weight="700" letter-spacing="1">PARTNER HANDBOOK</text>
+  <text x="44" y="125" fill="#ffffff" font-size="52" font-weight="700">DestinE partner guide</text>
+  <text x="47" y="168" fill="#d7eff1" font-size="22">Understand the ecosystem · Choose a service · Reproduce a first workflow</text>
+  <text x="47" y="235" fill="#a1e2d1" font-size="17">Researchers • Developers • Project managers</text></g>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="390" viewBox="0 0 1200 390" role="img" aria-labelledby="title desc">
+  <title id="title">DestinE ecosystem and related platforms</title><desc id="desc">Three connected core components: ESA Platform, EUMETSAT Data Lake and ECMWF Digital Twin Engine and Twins. Onboarded services and external platforms are separate data routes.</desc>
+  <rect width="1200" height="390" rx="16" fill="#f1f6f7"/>
+  <g font-family="Segoe UI,Arial,sans-serif"><text x="35" y="37" fill="#153b4a" font-size="20" font-weight="700">CORE DESTINE COMPONENTS</text>
+  <g stroke="#8cafb7" stroke-width="2"><path d="M376 136h42M786 136h42"/></g>
+  <rect x="35" y="61" width="341" height="150" rx="12" fill="#143d55"/>
+  <rect x="418" y="61" width="368" height="150" rx="12" fill="#176c72"/>
+  <rect x="828" y="61" width="337" height="150" rx="12" fill="#365572"/>
+  <g fill="white" font-size="23" font-weight="700"><text x="56" y="99">Platform</text><text x="440" y="99">Data Lake</text><text x="850" y="99">Digital Twins &amp; Engine</text></g>
+  <g fill="#e3f4f4" font-size="17"><text x="56" y="129">ESA · service access</text><text x="56" y="162">Identity, catalogue, collaboration</text><text x="56" y="188">Provider-specific onboarding</text>
+  <text x="440" y="129">EUMETSAT · data &amp; computing</text><text x="440" y="162">HDA, federated holdings</text><text x="440" y="188">Stack, Islet, Hook, MLOps</text>
+  <text x="850" y="129">ECMWF · model simulations</text><text x="850" y="162">Climate and weather extremes</text><text x="850" y="188">Permissions and selected subsets</text></g>
+  <rect x="35" y="240" width="553" height="120" rx="12" fill="#e0efeb" stroke="#98bcb4"/>
+  <rect x="612" y="240" width="553" height="120" rx="12" fill="#e7eaf2" stroke="#a6b1ca"/>
+  <g fill="#163e4d"><text x="56" y="275" font-size="21" font-weight="700">Services available through the Platform</text><text x="56" y="310" font-size="17">EDH, EDEN, Insula, NUPSI, SesamEO and others</text><text x="56" y="339" font-size="16">Check provider, maturity, quota and dataset entitlement</text>
+  <text x="633" y="275" font-size="21" font-weight="700">Related external platforms &amp; reference data</text><text x="633" y="310" font-size="17">CDSE / Sentinel Hub · CLMS · GTK · ICOS · GBIF</text><text x="633" y="339" font-size="16">Separate identity, licences, scientific scope and coverage</text></g></g>
+</svg>

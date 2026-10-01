@@ -1,0 +1,175 @@
+{
+  "review_date": "2026-09-28",
+  "source_archive": "summer-job_2026-main.zip",
+  "original_workflows_retained": 13,
+  "offline_orientation_added": "notebooks/00-offline-orientation.ipynb",
+  "workflows": [
+    {
+      "original": "notebooks/Copernicus Browser/Sentinel2_Copernicus_Browser_NDVI_Workflow.ipynb",
+      "curated": "notebooks/01-copernicus-browser-ndvi.ipynb",
+      "retained_workflow": "Acquire B04/B08, crop a small shared AOI, calibrate surface reflectance, mask poor observations, and calculate NDVI.",
+      "changes": [
+        "Local paths replace Colab uploads",
+        "Windowed AOI reads",
+        "Metadata-based radiometric offsets",
+        "Aligned SCL and nodata masks",
+        "No input data or credentials redistributed"
+      ],
+      "live_verification": "not_run"
+    },
+    {
+      "original": "notebooks/Sesam/SesamEO_Sentinel2_NDVI_Finland.ipynb",
+      "curated": "notebooks/02-sesameo-ndvi.ipynb",
+      "retained_workflow": "Acquire B04/B08, crop a small shared AOI, calibrate surface reflectance, mask poor observations, and calculate NDVI.",
+      "changes": [
+        "Local paths replace Colab uploads",
+        "Windowed AOI reads",
+        "Metadata-based radiometric offsets",
+        "Aligned SCL and nodata masks",
+        "No input data or credentials redistributed"
+      ],
+      "live_verification": "not_run"
+    },
+    {
+      "original": "notebooks/Nupsi/nupsi_s2_ndvi_finland_analysis.ipynb",
+      "curated": "notebooks/03-nupsi-raster-inspection.ipynb",
+      "retained_workflow": "Inspect a GeoTIFF's bands and color interpretation, identify visualizations, and sample a bounded table only after verifying numeric NDVI semantics.",
+      "changes": [
+        "Reject RGB/RGBA as numeric NDVI",
+        "Inspect scale and offset",
+        "Bounded preview and sample replace huge DataFrame",
+        "Record CRS and sample design"
+      ],
+      "live_verification": "not_run"
+    },
+    {
+      "original": "notebooks/Sentinel Hub/CDSE_Sentinel2_ProcessAPI_B04_B08.ipynb",
+      "curated": "notebooks/04-sentinel-2-process.ipynb",
+      "retained_workflow": "Request physical B04/B08 reflectance for a small Finland AOI, mask poor-quality classes, and calculate NDVI.",
+      "changes": [
+        "Environment OAuth credentials",
+        "Conservative SCL mask",
+        "Explicit calibrated reflectance",
+        "Bounded request",
+        "No saved private output"
+      ],
+      "live_verification": "not_run"
+    },
+    {
+      "original": "notebooks/Sentinel Hub/CDSE_Sentinel1_ProcessAP_VV_VH_.ipynb",
+      "curated": "notebooks/05-sentinel-1-process.ipynb",
+      "retained_workflow": "Retrieve linear terrain-normalized radar backscatter on one orbit direction and inspect VV, VH, and their ratio.",
+      "changes": [
+        "Fixed orbit/acquisition/polarization",
+        "Explicit coefficient and orthorectification",
+        "Masks and nonpositive values excluded",
+        "Linear versus dB distinction"
+      ],
+      "live_verification": "not_run"
+    },
+    {
+      "original": "notebooks/Sentinel Hub/CDSE_Sentinel2_TimeSeries_catalog API.ipynb",
+      "curated": "notebooks/06-sentinel-2-time-series.ipynb",
+      "retained_workflow": "Discover acquisitions, request narrow timestamp windows, and export compact per-acquisition summaries without retaining all images.",
+      "changes": [
+        "Narrow acquisition windows",
+        "Catalogue IDs and time ranges recorded",
+        "Bounded summaries instead of image retention",
+        "Cloud and SCL filters"
+      ],
+      "live_verification": "not_run"
+    },
+    {
+      "original": "notebooks/Sentinel Hub/CDSE_Sentinel1_TimeSeries_catalog_API.ipynb",
+      "curated": "notebooks/07-sentinel-1-time-series.ipynb",
+      "retained_workflow": "Discover acquisitions, request narrow timestamp windows, and export compact per-acquisition summaries without retaining all images.",
+      "changes": [
+        "Narrow acquisition windows",
+        "Catalogue IDs and time ranges recorded",
+        "Bounded summaries instead of image retention",
+        "Orbit direction, mode and polarization controls; relative-orbit limitation explicit"
+      ],
+      "live_verification": "not_run"
+    },
+    {
+      "original": "notebooks/Sentinel Hub/CDSE_Sentinel2_StatisticalAPI_5AOIs.ipynb",
+      "curated": "notebooks/08-sentinel-2-statistics.ipynb",
+      "retained_workflow": "Produce a masked feature table with 10-day intervals, real projected geometry and valid-sample-weighted monthly composite summaries.",
+      "changes": [
+        "Actual WGS84-to-UTM geometry transformation",
+        "Ten-metre units correct",
+        "Valid-count-weighted summaries",
+        "Shortened last interval retained",
+        "Cloud/shadow/snow/nodata masks"
+      ],
+      "live_verification": "not_run"
+    },
+    {
+      "original": "notebooks/EDH/ERA5_Land_Europe_Precipitation_and_Soil_Moisture_EDH.ipynb",
+      "curated": "notebooks/09-edh-era5-land.ipynb",
+      "retained_workflow": "Open ERA5-Land lazily, inspect variable conventions, compare selected years and build area-weighted soil-moisture summaries.",
+      "changes": [
+        "No credential-bearing URLs",
+        "Current Zarr3/netrc approach",
+        "Temporal labels and annual accumulation explicit",
+        "Area weighting",
+        "Bounded subsets and long-period opt-in"
+      ],
+      "live_verification": "not_run"
+    },
+    {
+      "original": "notebooks/EDEN/ERA5_Land_Monthly_Total_Precipitation_EDEN_Oct2025.ipynb",
+      "curated": "notebooks/10-eden-precipitation.ipynb",
+      "retained_workflow": "Read an EDEN-exported precipitation COG, transform an AOI into its CRS, crop only that window, and convert the declared precipitation convention.",
+      "changes": [
+        "Missing from_bounds import fixed",
+        "CRS-transformed bounded crop",
+        "Scale/offset respected",
+        "Monthly mean versus accumulated depth explicit"
+      ],
+      "live_verification": "not_run"
+    },
+    {
+      "original": "notebooks/DEM/DEM_sample_EDH.ipynb",
+      "curated": "notebooks/11-edh-dem.ipynb",
+      "retained_workflow": "Open Copernicus GLO-30 lazily, plot a small Finnish elevation subset and query a nearest grid value.",
+      "changes": [
+        "No embedded API keys",
+        "Credential-free catalogue URL",
+        "Decode scaling/missing values",
+        "Only small subset computed",
+        "Actual point coordinates recorded"
+      ],
+      "live_verification": "not_run"
+    },
+    {
+      "original": "notebooks/polytope/ClimateDT_Polytope_NorthernEurope_Precipitation .ipynb",
+      "curated": "notebooks/12-polytope-climate-dt.ipynb",
+      "retained_workflow": "Request a Northern Europe precipitation-rate subset from a specified climate simulation and integrate verified time intervals.",
+      "changes": [
+        "Missing authentication script replaced",
+        "No token stdout parsing",
+        "Separate compatible environment",
+        "Simulation/observation distinction",
+        "Explicit rate convention and missing-interval handling",
+        "Display interpolation labelled"
+      ],
+      "live_verification": "not_run"
+    },
+    {
+      "original": "notebooks/landsat/HDA_Landsat_C2_L2_Data_Access .ipynb",
+      "curated": "notebooks/13-hda-landsat.ipynb",
+      "retained_workflow": "Discover Landsat Collection 2 Level-2 items in the DestinE Data Lake and select either one direct asset or one resumable order.",
+      "changes": [
+        "Current service-specific AuthN/token exchange",
+        "Timeouts and size cap",
+        "Explicit data-asset choice",
+        "Host-scoped authorization/redirect allowlist",
+        "Sanitized filenames",
+        "Mutually exclusive download/order",
+        "Persist submission record and avoid duplicate orders"
+      ],
+      "live_verification": "not_run"
+    }
+  ]
+}

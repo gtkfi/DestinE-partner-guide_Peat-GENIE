@@ -1,0 +1,13 @@
+# Reference resolution: Windows / Python 3.12 / 2026-09-28
+earthkit-data==0.20.0
+covjsonkit==0.2.26
+polytope-client==0.7.10
+destinepyauth==1.3.1
+numpy==2.3.5
+pandas==2.3.3
+xarray==2026.7.0
+scipy==1.18.1
+matplotlib==3.11.2
+python-dotenv==1.2.3
+ipykernel==7.3.0
+zarr==2.18.7

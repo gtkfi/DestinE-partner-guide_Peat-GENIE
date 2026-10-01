@@ -1,0 +1,328 @@
+{
+  "checked_date": "2026-09-28",
+  "scope": "Official public documentation and catalogue labels; authenticated operations were not tested.",
+  "sources": [
+    {
+      "url": "https://destination-earth.eu/destination-earth/",
+      "title": "About Destination Earth",
+      "checked": true,
+      "date": "2026-09-28",
+      "scope": "Core responsibilities: ESA Platform, EUMETSAT Data Lake, ECMWF DTE and Digital Twins"
+    },
+    {
+      "url": "https://platform.destine.eu/services/",
+      "title": "DestinE service catalogue",
+      "checked": true,
+      "date": "2026-09-28",
+      "scope": "Catalogue entry point; individual service pages checked separately"
+    },
+    {
+      "url": "https://platform.destine.eu/support-faq/",
+      "title": "DestinE support FAQ",
+      "checked": true,
+      "date": "2026-09-28",
+      "scope": "Registration and separate providers; selected access"
+    },
+    {
+      "url": "https://platform.destine.eu/support-pages/access-policy/",
+      "title": "DestinE Access Policy",
+      "checked": true,
+      "date": "2026-09-28",
+      "scope": "User categories, upgraded-access application steps and assessment"
+    },
+    {
+      "url": "https://platform.destine.eu/access-policy-upgrade/",
+      "title": "Destination Earth User Access Upgrade",
+      "checked": true,
+      "date": "2026-09-28",
+      "scope": "Official application entry point"
+    },
+    {
+      "url": "https://data.destination-earth.eu/services",
+      "title": "Data Lake services",
+      "checked": true,
+      "date": "2026-09-28",
+      "scope": "HDA, Stack, Islet, Hook, FDP and MLOps Studio roles"
+    },
+    {
+      "url": "https://data.destination-earth.eu/extremes-dt",
+      "title": "Weather-Induced Extremes Digital Twin",
+      "checked": true,
+      "date": "2026-09-28",
+      "scope": "Global and regional extremes simulations"
+    },
+    {
+      "url": "https://destination-earth.eu/news/updates-on-the-climate-change-adaptation-digital-twins/",
+      "title": "Updates on the Climate Change Adaptation Digital Twin",
+      "checked": true,
+      "date": "2026-09-28",
+      "scope": "Multi-decadal climate simulations and storylines"
+    },
+    {
+      "url": "https://platform.destine.eu/services/service/polytope/",
+      "title": "Polytope service",
+      "checked": true,
+      "date": "2026-09-28",
+      "scope": "Operational catalogue label, efficient extraction, upgraded DT access"
+    },
+    {
+      "url": "https://github.com/destination-earth-digital-twins/polytope-examples",
+      "title": "Official Polytope examples",
+      "checked": true,
+      "date": "2026-09-28",
+      "scope": "Provider-maintained starting point and tutorial routes"
+    },
+    {
+      "url": "https://github.com/destination-earth-digital-twins/polytope-examples/tree/main/climate-dt",
+      "title": "Climate DT example guide",
+      "checked": true,
+      "date": "2026-09-28",
+      "scope": "Authentication and separate Zarr v2 explorer environment"
+    },
+    {
+      "url": "https://github.com/SercoSPA/DestinE-Platform-AuthN",
+      "title": "DestinE Platform authentication library",
+      "checked": true,
+      "date": "2026-09-28",
+      "scope": "destinepyauth service configuration and Polytope credential file"
+    },
+    {
+      "url": "https://data.destination-earth.eu/news/6973898762a48c35be5ca737",
+      "title": "New features released on DestinE Data Lake services, 13 February 2026",
+      "checked": true,
+      "date": "2026-09-28",
+      "scope": "HDA STAC v2 guidance and service-account/API-key support"
+    },
+    {
+      "url": "https://destine-data-lake-docs.data.destination-earth.eu/en/latest/dedl-discovery-and-data-access/Harmonized-Data-Access/API-Guide/Authentication-And-Quotas.html",
+      "title": "HDA Authentication & Quotas",
+      "checked": true,
+      "date": "2026-09-28",
+      "scope": "Public versus authenticated endpoints, DT permissions, token exchange, clients"
+    },
+    {
+      "url": "https://destine-data-lake-docs.data.destination-earth.eu/en/latest/dedl-discovery-and-data-access/Harmonized-Data-Access/API-Guide/Data-Access.html",
+      "title": "HDA Data Access",
+      "checked": true,
+      "date": "2026-09-28",
+      "scope": "Download, streaming and asset access"
+    },
+    {
+      "url": "https://platform.destine.eu/services/service/eden/",
+      "title": "EDEN service",
+      "checked": true,
+      "date": "2026-09-28",
+      "scope": "MEEO operator, operational label, DT access limitation"
+    },
+    {
+      "url": "https://platform.destine.eu/docs/eden/doc/index.html",
+      "title": "EDEN documentation",
+      "checked": true,
+      "date": "2026-09-28",
+      "scope": "Finder/cart workflow, EDEN broker API, anonymous STAC/OpenSearch, data terms"
+    },
+    {
+      "url": "https://platform.destine.eu/services/service/earth-data-hub/",
+      "title": "Earth Data Hub service",
+      "checked": true,
+      "date": "2026-09-28",
+      "scope": "B-Open operator, operational label and selected portfolio"
+    },
+    {
+      "url": "https://earthdatahub.destine.eu/",
+      "title": "Earth Data Hub homepage",
+      "checked": true,
+      "date": "2026-09-28",
+      "scope": "Zarr v3 ERA5 migration; live catalogue approach"
+    },
+    {
+      "url": "https://earthdatahub.destine.eu/getting-started",
+      "title": "Earth Data Hub getting started",
+      "checked": true,
+      "date": "2026-09-28",
+      "scope": "Public test store, API-key generation, restricted DT holdings, netrc and Xarray"
+    },
+    {
+      "url": "https://earthdatahub.destine.eu/tutorials",
+      "title": "Earth Data Hub tutorials",
+      "checked": true,
+      "date": "2026-09-28",
+      "scope": "Climate, ERA5-Land, DEM and multisource tutorial entry points"
+    },
+    {
+      "url": "https://github.com/bopen/edh-learning",
+      "title": "Earth Data Hub learning resources",
+      "checked": true,
+      "date": "2026-09-28",
+      "scope": "Provider-maintained reproducible example environment"
+    },
+    {
+      "url": "https://platform.destine.eu/services/service/insula-code/",
+      "title": "Insula Code service",
+      "checked": true,
+      "date": "2026-09-28",
+      "scope": "CGI operator, operational label"
+    },
+    {
+      "url": "https://platform.destine.eu/services/service/insula-processing/",
+      "title": "Insula Processing service",
+      "checked": true,
+      "date": "2026-09-28",
+      "scope": "CGI operator, operational label and orchestrated algorithm processing"
+    },
+    {
+      "url": "https://platform.destine.eu/docs/insula/doc/lab/index.html",
+      "title": "Insula Code documentation",
+      "checked": true,
+      "date": "2026-09-28",
+      "scope": "JupyterHub and notebook development role"
+    },
+    {
+      "url": "https://platform.destine.eu/docs/insula/doc/insula/index.html",
+      "title": "Insula documentation",
+      "checked": true,
+      "date": "2026-09-28",
+      "scope": "Perception and Intellect concepts"
+    },
+    {
+      "url": "https://platform.destine.eu/docs/insula/doc/lab/examples.html",
+      "title": "Insula examples",
+      "checked": true,
+      "date": "2026-09-28",
+      "scope": "getting-started workspace and provider-managed updates"
+    },
+    {
+      "url": "https://platform.destine.eu/docs/insula/doc/insula/intellect/develop.html",
+      "title": "Integrate your own algorithm",
+      "checked": true,
+      "date": "2026-09-28",
+      "scope": "Expert User role and Docker-based service integration"
+    },
+    {
+      "url": "https://platform.destine.eu/general/insula-code-and-insula-processing-new-release-live-on-15-may/",
+      "title": "Insula release, 15 May 2026",
+      "checked": true,
+      "date": "2026-09-28",
+      "scope": "Separate standard and Polytope kernels; environment changes"
+    },
+    {
+      "url": "https://platform.destine.eu/services/service/nupsi/",
+      "title": "NUPSI service",
+      "checked": true,
+      "date": "2026-09-28",
+      "scope": "Operator, operational label, NUTS/custom AOI and export capabilities"
+    },
+    {
+      "url": "https://platform.destine.eu/docs/nupsi/doc/index.html",
+      "title": "NUPSI documentation",
+      "checked": true,
+      "date": "2026-09-28",
+      "scope": "Mosaics, interface tour, NUTS versions and custom AOIs"
+    },
+    {
+      "url": "https://platform.destine.eu/services/service/sesameo/",
+      "title": "SesamEO service",
+      "checked": true,
+      "date": "2026-09-28",
+      "scope": "Operator, operational label, DT access and CAMS portfolio candidates"
+    },
+    {
+      "url": "https://platform.destine.eu/docs/sesameo/doc/index.html",
+      "title": "SesamEO documentation",
+      "checked": true,
+      "date": "2026-09-28",
+      "scope": "Provider credentials, My SesamEO Account, X-API-KEY and API query interface"
+    },
+    {
+      "url": "https://platform.destine.eu/services/service/eo4eu/",
+      "title": "EO4EU service",
+      "checked": true,
+      "date": "2026-09-28",
+      "scope": "Beta Testing label, advertised AI/fusion tools and soil-erosion tutorial"
+    },
+    {
+      "url": "https://platform.destine.eu/services/service/delta-twin/",
+      "title": "Delta Twin service",
+      "checked": true,
+      "date": "2026-09-28",
+      "scope": "Operational label, components, Run module and quotas"
+    },
+    {
+      "url": "https://platform.destine.eu/docs/deltatwin/doc/index.html",
+      "title": "DeltaTwin documentation",
+      "checked": true,
+      "date": "2026-09-28",
+      "scope": "Official CLI and quota documentation entry point"
+    },
+    {
+      "url": "https://platform.destine.eu/docs/deltatwin/doc/command_line.html",
+      "title": "DeltaTwin command line",
+      "checked": true,
+      "date": "2026-09-28",
+      "scope": "Component, drive, runs and schedules"
+    },
+    {
+      "url": "https://platform.destine.eu/docs/deltatwin/doc/command-line/docs/dev/basic.html",
+      "title": "DeltaTwin login and metrics",
+      "checked": true,
+      "date": "2026-09-28",
+      "scope": "API URL, stored configuration and quota metrics"
+    },
+    {
+      "url": "https://platform.destine.eu/general/deltatwin-new-release-live-on-4-august/",
+      "title": "DeltaTwin release, 4 August 2025",
+      "checked": true,
+      "date": "2026-09-28",
+      "scope": "SesamEO inputs, logging and CDS connector"
+    },
+    {
+      "url": "https://destine-data-lake-docs.data.destination-earth.eu/en/latest/dedl-big-data-processing-services/Access-Edge-services/Access-Edge-services.html",
+      "title": "Access Edge services",
+      "checked": true,
+      "date": "2026-09-28",
+      "scope": "Resource approval, DestinE identity route and near-data choices"
+    },
+    {
+      "url": "https://destine-data-lake-docs.data.destination-earth.eu/en/latest/working_with_ai_in_the_data_lake/mlops-studio/Access-the-MLOps-Studio-workspace/Access-the-MLOps-Studio-workspace.html",
+      "title": "Access the MLOps Studio workspace",
+      "checked": true,
+      "date": "2026-09-28",
+      "scope": "Profile, approved project, site and workspace prerequisites"
+    },
+    {
+      "url": "https://destine-data-lake-docs.data.destination-earth.eu/en/latest/working_with_ai_in_the_data_lake/mlops-studio/Choose-how-to-run-Python-workloads-in-MLOps-Studio/Choose-how-to-run-Python-workloads-in-MLOps-Studio.html",
+      "title": "Choose Python workloads in MLOps Studio",
+      "checked": true,
+      "date": "2026-09-28",
+      "scope": "Notebook versus training job and namespace quota"
+    },
+    {
+      "url": "https://documentation.dataspace.copernicus.eu/Applications/Browser.html",
+      "title": "Copernicus Browser documentation",
+      "checked": true,
+      "date": "2026-09-28",
+      "scope": "External platform browser functionality and account"
+    },
+    {
+      "url": "https://documentation.dataspace.copernicus.eu/APIs/SentinelHub/Overview/Authentication.html",
+      "title": "CDSE Sentinel Hub authentication",
+      "checked": true,
+      "date": "2026-09-28",
+      "scope": "OAuth clients, client ID/secret, token URL and reuse"
+    },
+    {
+      "url": "https://sentiwiki.copernicus.eu/web/s2-products",
+      "title": "Sentinel-2 products",
+      "checked": true,
+      "date": "2026-09-28",
+      "scope": "Native reflectance metadata and radiometric calibration"
+    },
+    {
+      "url": "https://destination-earth.github.io/DestinE-DataLake-Gallery/",
+      "title": "DestinE Data Lake Gallery",
+      "checked": true,
+      "date": "2026-09-28",
+      "scope": "Provider-maintained examples; checked by coordinating agent"
+    }
+  ]
+}
