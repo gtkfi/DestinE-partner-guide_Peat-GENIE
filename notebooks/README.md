@@ -2,10 +2,6 @@
 
 [Guide home](../README.md) · [Start here](../docs/start-here.md) · [Environment](../docs/setup/README.md) · [Accounts](../docs/setup/accounts.md) · [Verification record](../docs/reference/verification.md)
 
-Start with **[00 · Offline orientation](00-offline-orientation.ipynb)**. It uses small synthetic arrays and needs no account. Then choose a tutorial by service and access route. GitHub can display the notebook; running it requires the stated Python environment and, for live examples, the relevant service access.
-
-**Shortest route:** run [00](00-offline-orientation.ipynb), then try [04 · Sentinel-2 Process API](04-sentinel-2-process.ipynb) if you have CDSE access, or [09 · EDH ERA5-Land](09-edh-era5-land.ipynb) if you have an EDH key. The full list below is optional reference material.
-
 The 13 workflows adapted from the supplied project and one account-free orientation make 14 notebooks. The [migration notes](../docs/reference/migration.md) explain their origins. Original private inputs and credentials are excluded. Live requests have not been verified with service accounts in this release. File-based notebooks need your own documented inputs. See the [verification record](../docs/reference/verification.md).
 
 | Tutorial | Learn / expected output | Access and input | Environment |
